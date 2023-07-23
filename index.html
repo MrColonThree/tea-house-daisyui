@@ -49,11 +49,11 @@
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header class="container mx-auto">
+    <header class="container mx-auto hidden">
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row">
           <div>
-            <h1 class="text-7xl font-extrabold">
+            <h1 class="text-5xl md:text-7xl font-extrabold">
               It's good <br />
               tea time at The <br />
               Tea House
@@ -79,9 +79,9 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto ">
       <!-- Featured Section -->
-      <section class="text-center my-24">
+      <section class="text-center my-24 >
         <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
         <p class="lg:max-w-3xl mx-auto mb-10">
           There are many variations of passages of Lorem Ipsum available, but
@@ -133,7 +133,7 @@
         </div>
       </section>
       <!-- Great tea, Fresh tea section -->
-      <section class="my-24 flex flex-col lg:flex-row gap-12">
+      <section class="my-24 flex flex-col lg:flex-row gap-12 items-center">
         <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
           <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 to-amber-100"></div>
           <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center">
@@ -144,12 +144,12 @@
           </div>
           <div class="rounded-xl h-36 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
       </div>
-        <div class="space-y-3 flex-1">
+        <div class="space-y-5 flex-1">
           <h3 class="text-5xl font-extrabold">
             Great Tea, Freshly <br />
             Presented
           </h3>
-          <p class="font-medium">
+          <p class="font-medium leading-7">
             The meaning of gong cha is chanese is to provide the best tea to
             emperor from all possessions . It represents the highest quality and
             self expectation. Establishing in 2006, Gong cha had been deeply
@@ -157,19 +157,39 @@
             unique customized service orginated from Taiwan.
           </p>
           <h4 class="text-xl font-extrabold">Unique Taste</h4>
-          <p class="font-medium">
+          <p class="font-medium leading-7 w-[450px]">
             A Unique and different style from other teapots gives a luxurious
             and minimalist impression
           </p>
           <h4 class="text-xl font-extrabold">Premium Quality</h4>
-          <p class="font-medium">
+          <p class="font-medium leading-7 w-[450px]">
             Premium Quality that makes tea more elegant and more durable when
             you use it.
           </p>
         </div>
       </section>
       <!-- Super Clients Section -->
-      <section class=""></section>
+      <section class="my-24 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-12 flex gap-12 flex-col lg:flex-row">
+        <div class="space-y-5">
+          <h2 class="text-5xl font-extrabold text-white">
+            Meet Our Super <br>
+            Clients
+          </h2>
+          <p class="font-medium leading-7 text-white">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          </p>
+          <button class="btn btn-primary">Show All</button>
+        </div>
+        <div>
+          <!-- review -->
+          <div class="p-10 rounded-lg bg-white relative">
+            <img class="absolute -left-5 -top-5" src="images/client.png" alt="">
+            <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+            <h4 class="font-bold mt-5">Ilham Yuda</h4>
+            <p class="font-medium">Businessman</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
